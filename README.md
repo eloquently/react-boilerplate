@@ -1,7 +1,9 @@
 ## Packages Included
 
-Build: Webpack, Babel (es2015 and React), Sass loaders, webpack-dev-server
+Build: Webpack, Babel (es2015 and React), Sass loaders, webpack-dev-server, react-hot-loader
+
 Test: Mocha, Chai, Enzyme
+
 Front-end: React, React-Dom
 
 ## How to Run Things
@@ -36,7 +38,7 @@ Run tests automatically when files change:
 npm run test:watch
 ```
 
-Run webpack-dev-server (may need to change host and port in `webpack.config.js` if you are not using Cloud9)
+Run webpack-dev-server (may need to change host and port in `webpack.config.js` if you are not using Cloud9). You don't need to run `webpack:watch` for this to work.
 
 ```
 npm run webpack-dev-server

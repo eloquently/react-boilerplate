@@ -38,7 +38,9 @@ Run tests automatically when files change:
 npm run test:watch
 ```
 
-Run webpack-dev-server (may need to change host and port in `webpack.config.js` if you are not using Cloud9). You don't need to run `webpack:watch` for this to work.
+Run webpack-dev-server (`master` branch is configuration for Cloud9. `local` branch has configuration for running on localhost).
+
+You don't need to run `webpack:watch` if you are running the dev server.
 
 ```
 npm run webpack-dev-server
